@@ -8,8 +8,8 @@ const Speakers = ({data}) => {
 
   return (
     <section
-      className="pv3 ph4">
-      <h1>Speakers/Trainers</h1>
+      className="pv3 ph4 bg-near-white pv5 mt6">
+      <h1 className="fw3 center tc">Speakers/Trainers</h1>
         {data.map((speaker, i) => (
           <Person 
             name={speaker.node.frontmatter.name} 
