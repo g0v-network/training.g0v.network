@@ -2,10 +2,11 @@ const path = require('path')
 
 module.exports = {
   siteMetadata: {
-title : 'vTaiwan Open Consultation & Participation Officers Training',
+    title : 'vTaiwan Open Consultation & Participation Officers Training',
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
+    `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-react-helmet`,
       `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,
