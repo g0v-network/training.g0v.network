@@ -1,5 +1,7 @@
 backend:
-  name: test-repo
+  name: github
+  repo: g0v-network/training.g0v.network
+  branch: configure-netlify
 
 media_folder: static/assets
 
