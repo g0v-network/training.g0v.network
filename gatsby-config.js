@@ -6,6 +6,13 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-netlify-cms`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: path.join(__dirname, `blog`),
+        name: 'markdown-pages',
+      },
+    },
     `gatsby-plugin-react-helmet`,
       `gatsby-transformer-json`,
     {
