@@ -8,7 +8,7 @@ const Nav = ({data}) => {
   return (
     <nav
       role="contentinfo"
-      className="bg-dark-blue site-nav pv3 ph4">
+      className="bg-dark-blue site-nav pv3 ph4 z-2 relative">
       <div
         className="mw8 center flex flex-wrap justify-between items-start">
         {data.primaryLinks.map((link, i) => (
