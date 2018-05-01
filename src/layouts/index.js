@@ -15,7 +15,9 @@ const Layout = ({ children, data }) => (
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
-    />
+    >
+      <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css"/>
+    </Helmet>
     <Header data={data} siteTitle={data.site.siteMetadata.title} />
     <main className="relative z-2 mt4">
       {children()}
