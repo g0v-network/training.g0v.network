@@ -1,13 +1,43 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const IndexPage = () => (
+import Speakers from '../components/Speakers'
+import Organizers from '../components/Organizers'
+
+const IndexPage = ({ data }) => (
   <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    {console.log("index page", data)}
+    <Speakers data={data.speakersContent.edges} />
+    <Organizers data={data.organizersContent.edges} />
   </div>
 )
 
 export default IndexPage
+
+export const query = graphql `
+  query IndexPageQuery {
+    speakersContent: allMarkdownRemark(filter : { fileAbsolutePath: { regex: "/content\/speakers/" }}) {
+      edges {      
+        node {
+          html              
+          frontmatter {
+            name
+            role
+          }
+        }
+      }
+    }
+    organizersContent: allMarkdownRemark(filter : { fileAbsolutePath: { regex: "/content\/organizers/" }}) {
+      edges {      
+        node {
+          html              
+          frontmatter {
+            name
+            role
+          }
+        }
+      }
+    }
+
+  }
+`
