@@ -3,6 +3,7 @@ const path = require('path')
 module.exports = {
   siteMetadata: {
     title : 'vTaiwan Open Consultation & Participation Officers Training',
+    description: `Two-day training in New York City June 11-12 2018. Learn vTaiwan and Participatory Officer training from Audrey Tang, Digital Minister of Taiwan and members of PDIS Team. Limited space.`
   },
   plugins: [
     `gatsby-plugin-netlify-cms`,
