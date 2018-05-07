@@ -1,20 +1,14 @@
 nav:
   primaryLinks:
-    - 
-      title: Home
-      url: /
-    - 
-      title: Speakers
-      url: "#speakers"
+    -
+      title: Trainers
+      url: "/#trainers"
     -
       title: About
-      url: "about"
+      url: "/#about"
     - 
       title: Team
-      url: team
-    - 
-      title: Venue
-      url: "#venue"
-    - 
+      url: "#team"
+    -
       title: Get Tickets
-      url: register
+      url: "#tickets"

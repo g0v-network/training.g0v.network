@@ -3,25 +3,29 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 import './index.css'
 
 const Layout = ({ children, data }) => (
-  <div className="avenir">
+  <div className="avenir overflow-hidden">
   {console.log(data)}
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        {
+          name: 'description',
+          content: `${data.site.siteMetadata.description}`
+        },
       ]}
     >
-      <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css"/>
     </Helmet>
     <Header data={data} siteTitle={data.site.siteMetadata.title} />
-    <main className="relative z-2 mt4">
+    <main className="relative z-2 mt4-l">
       {children()}
     </main>
+    <Footer data={data} />
   </div>
 )
 
@@ -36,16 +40,8 @@ export const query = graphql`
     site {
       siteMetadata {
         title
+        description
       }
     }
-    dataYaml {
-      nav {
-        primaryLinks {
-          title
-          url
-        }
-      }
-  }
-
   }
 `

@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "classnames": "^2.2.5",
     "gatsby": "^1.9.247",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-netlify-cms": "^2.0.1",
@@ -14,8 +15,10 @@
     "gatsby-transformer-remark": "^1.7.40",
     "gatsby-transformer-yaml": "^1.5.16",
     "netlify-cms": "^1.7.0",
+    "react-anchor-link-smooth-scroll": "^1.0.9",
     "react-helmet": "^5.2.0",
-    "slug": "^0.9.1"
+    "slug": "^0.9.1",
+    "smooth-anchorate": "^1.2.1"
   },
   "keywords": [
     "gatsby"
