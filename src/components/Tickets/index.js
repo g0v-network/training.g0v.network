@@ -21,12 +21,12 @@ const TicketContainer = ({data}) => {
         />        
         
         <p>
-          <Link 
-            to="https://docs.google.com/forms/d/e/1FAIpQLSei_8PmfURM9fGhhvHe9YiwSzPQvqBEQEE9cCMLXWXbe0-cqA/viewform"
+          <a 
+            href="https://docs.google.com/forms/d/e/1FAIpQLSei_8PmfURM9fGhhvHe9YiwSzPQvqBEQEE9cCMLXWXbe0-cqA/viewform"
             className="f5 fw5 link grow ph4 pv3 br3 mb2 dib white bg-purple"
           >
             Apply Today
-          </Link>
+          </a>
         </p>
       </section>
       <aside className="mt5 mt0-l w-50-l">
