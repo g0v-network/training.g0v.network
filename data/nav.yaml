@@ -1,0 +1,14 @@
+nav:
+  primaryLinks:
+    -
+      title: Trainers
+      url: "/#trainers"
+    -
+      title: About
+      url: "/#about"
+    - 
+      title: Team
+      url: "#team"
+    -
+      title: Get Tickets
+      url: "#tickets"

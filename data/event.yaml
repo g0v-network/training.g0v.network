@@ -1,0 +1,44 @@
+event:
+  day1: 
+    day: 1
+    photo: "/images/vtaiwan-nci-stakeholder-meeting.jpg"
+    event: vTaiwan Open Consultation Process
+    about: > 
+      vTaiwan is a public-fund, private-operated community. vTaiwan is an open consultation process that brings Taiwan citizens and government together in online and offline spaces. There are various collaborative open source engagement tools used in vTaiwan that shapes an interactive environment based on evolving rough consensus. “vTaiwan culture” is drawn from open source culture, strongly adhering to principles of transparency and collaboration, self-organization and distributed responsibility. vTaiwan is also an open space, a combination of time and space run by participants to work on cases brought in. 
+    overview:   
+      - 
+        title: History of vTaiwan
+        blurb: An opportunity to learn the highly effective process for crafting participary democracy from Audrey Tang.
+        icon: "i"
+      - 
+        title: vTaiwan Tools and Methods
+        blurb: Hands on experience working with the online and offline tools and methods used by vTaiwan. You'll get first-hand experience with Pol.is, Slide, and Discourse. 
+        icon: "i"
+      -
+        title: vTaiwan Stakeholder Meeting
+        blurb: Experience the vTaiwan Stakeholder meeting. Learn the facilitation methods and techniques used to successfully co-create legislation. 
+        icon: "i"
+      - 
+        title: Open Discussion with Practicioners
+        blurb: Have the opportunity to discuss with experts from Taiwan and a selected cohort of 30 practioners.
+        icon: "i"
+  day2: 
+    day: 2
+    event: Participatory Officer (PO)
+    photo: ""
+    about: > 
+      The Participatory Officers program equips civil servants to engage with stakeholders to generate meaningful challenge statements and co-create possible solutions, reinforcing the quality of multi-stakeholder collaboration and better informing their agency’s policies.
+
+    overview: 
+      - 
+        title: Open and Participatory Policy Making
+        blurb: Learn Taiwan's approach for participatory policy-making known as Issue-Based Mapping.
+        icon: "i"
+      - 
+        title: Co-Create Solutions
+        blurb: Hands on experience co-synthesizing and co-creating solutions to complex problems. 
+        icon: "i"
+      -
+        title: 99% Effective
+        blurb: The original, Mandarin language training for POs has been rated “99% effective” by Taiwanese public servants. 
+        icon: "i"

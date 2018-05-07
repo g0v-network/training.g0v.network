@@ -1,0 +1,32 @@
+backend:
+  name: github
+  repo: g0v-network/training.g0v.network
+  branch: configure-netlify
+
+media_folder: static/assets
+
+collections:
+  - name: blog
+    label: Blog
+    folder: blog
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+  - name: organizers
+    label: Organizers
+    folder: content/organizers
+    create: false
+    fields:
+      - { name: path, label: Path }
+      - { name: title, label: Title }
+      - { name: body, label: Body }      
+  - name: trainers
+    label: Trainers
+    folder: content/trainers
+    create: false
+    fields:
+      - { name: path, label: Path }
+      - { name: title, label: Title }
+      - { name: body, label: Body }      
