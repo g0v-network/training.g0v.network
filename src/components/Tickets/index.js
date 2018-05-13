@@ -34,6 +34,7 @@ const TicketContainer = ({data}) => {
         <div className="flex flex-wrap mw8 center">
         {ticketContent.map((perk, i) => (
           <MediaObject 
+            key={i}
             title={perk.title} 
             blurb={perk.blurb} 
             icon={perk.icon}
