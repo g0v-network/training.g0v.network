@@ -4,4 +4,14 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
- // You can delete this file if you're not using it
+exports.onRouteUpdate = ({location}) => {
+  if (location.hash) {
+    console.log(location.hash)
+      document.querySelector("about").addEventListener('click', function (e) { //say this is an anchor
+        //do something
+        e.preventDefault();
+        // scrollIntoView()
+      });
+
+  }
+};
