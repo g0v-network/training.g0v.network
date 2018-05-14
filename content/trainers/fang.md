@@ -1,8 +1,10 @@
 ---
 key: fang
 name: "Fang"
-twitter: "FangJuiChang"
-website: "fangjuichang.com"
+links:
+  -
+    twitter: "FangJuiChang"
+    website: "fangjuichang.com"
 location: "Taiwan"
 role: "Service Designer & Consultant. PDIS"
 photo: "images/trainer-fang.jpg"

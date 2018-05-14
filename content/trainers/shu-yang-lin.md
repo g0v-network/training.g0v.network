@@ -1,8 +1,10 @@
 ---
 key: shu
 name: "Shu Yang Lin"
-twitter: "shuyanglin"
-website: "shuyanglin.com"
+links:
+  -
+    twitter: "shuyanglin"
+    website: "shuyanglin.com"
 location: "Taiwan"
 role: "re:architect & international liaison"
 photo: "images/trainer-shu.png"

@@ -1,8 +1,10 @@
 ---
 key: audrey
 name: "Audrey Tang"
-twitter: "au"
-website: "http://audreyt.org/audrey.jpg"
+links:
+  - 
+    twitter: "au"
+    website: "http://audreyt.org/audrey.jpg"
 location: "Taiwan"
 role: "Digital Minister"
 photo: "images/trainer-au.jpg"

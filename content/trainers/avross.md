@@ -1,7 +1,9 @@
 ---
 key: avross
 name: "Avross Yu-Tang Hsiao"
-twitter: "avross"
+links:
+  -
+    twitter: "avross"
 location: "Taiwan"
 role: "Senior Legal Consultant"
 photo: "images/trainer-avross.jpg"
