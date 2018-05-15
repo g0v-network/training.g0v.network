@@ -12,8 +12,10 @@ import TicketsContainer from '../components/Tickets'
 const IndexPage = ({ data }) => (
   <div>
     <section id="#about" className="w-60-l f4 f3-l lh-copy ml5-l ph3 pv4-m measure-wide-m pl4-m pl5-l mt6 mt5-m mb5-l">
-      <p>In the spirit of international exchange and with the support of the Taiwanese government, we are pleased to announce the first English language opportunity to learn the facilitation methods that power the award-winning vTaiwan open consultation process and Participatory Officers program. vTaiwan and PO network bring people directly into governance and helps lawmakers implement decisions with a greater degree of legitimacy. </p> 
-      <p>Audrey Tang, Taiwan’s Digital Minister will be here in person with other members of Taiwan’s Public Digital Innovation and Service team (PDIS) and Participatory Officers (PO) program to conduct a two-day workshop in New York City.</p>
+      <p>In the spirit of international exchange and with the support of the Taiwanese government, we are pleased to announce the first English language opportunity to learn the methods that power the award-winning vTaiwan open consultation process and Participatory Officers program. </p> 
+  
+      <p>The training will be highly interactive and led by a delegation from Taiwan, including: Digital Minister Audrey Tang and members of the Public Digital Innovation and Service team. We invite you to be an integral part of this inaugural opportunity!
+</p>
     </section>
 
     <DayOverview data={data.eventContent.edges[0].node.event.day1} flip={false} className="mb4" />
