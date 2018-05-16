@@ -4,41 +4,41 @@ event:
     photo: "/images/vtaiwan-nci-stakeholder-meeting.jpg"
     event: vTaiwan Open Consultation Process
     about: > 
-      vTaiwan is a public-fund, private-operated community. vTaiwan is an open consultation process that brings Taiwan citizens and government together in online and offline spaces. There are various collaborative open source engagement tools used in vTaiwan that shapes an interactive environment based on evolving rough consensus. “vTaiwan culture” is drawn from open source culture, strongly adhering to principles of transparency and collaboration, self-organization and distributed responsibility. vTaiwan is also an open space, a combination of time and space run by participants to work on cases brought in. 
+      vTaiwan is an open consultation process that brings Taiwan citizens and government together to craft country-wide digital legislation. The ‘v’ in vTaiwan stands for “vision”, “voice”, “vote” and “virtual”, as vTaiwan embarks on a “virtual venture” of open consultation with citizens. “vTaiwan culture” is drawn from open source culture, strongly adhering to principles of transparency and collaboration, self-organization and distributed responsibility. 
     overview:   
       - 
         title: History of vTaiwan
-        blurb: An opportunity to learn the highly effective process for crafting participary democracy from Audrey Tang.
+        blurb:  In December 2014, the then Minister without Portfolio, Jaclyn Tsai, attended a hackathon organized by g0v—the largest civic tech community in Asia—and requested g0v contributors to build a platform that would allow the entire Taiwan society to engage in “rational discussion” of public matters at a national scale. Tsai’s proposal kick-started vTaiwan. To date, 25 national issues have been discussed through the vTaiwan open consultation process, and more than 80% have led to decisive government action.
         icon: "i"
       - 
-        title: vTaiwan Tools and Methods
-        blurb: Hands on experience working with the online and offline tools and methods used by vTaiwan. You'll get first-hand experience with Pol.is, Slido, and Discourse. 
+        title: vTaiwan Process
+        blurb: The vTaiwan process consists of four successive stages: proposal, opinion, reflection, and legislation. At the training, in an interactive vTaiwan session, you will learn about each of these stages and know what it takes for multiple stakeholders to come to consensus and successfully co-create legislation.
         icon: "i"
       -
-        title: vTaiwan Stakeholder Meeting
-        blurb: Experience the vTaiwan Stakeholder meeting. Learn the facilitation methods and techniques used to successfully co-create legislation. 
+        title: vTaiwan Tools and Methods
+        blurb: vTaiwan uses collaborative methods and open source engagement tools to shape an interactive environment based on evolving rough consensus. At the training you will gain hands on experience working with the on/offline tools and methods used by vTaiwan. For example: you will learn about focused conversation method ORID and, the use of engagement tools such as  with Pol.is, Slido, and Discourse.
         icon: "i"
       - 
-        title: Open Discussion with Practicioners
-        blurb: Have the opportunity to discuss with experts from Taiwan and a selected cohort of 30 practioners.
+        title: Open Discussion with Practitioners
+        blurb: You will also have the opportunity to have in-depth discussions  with our visitors from Taiwan and other practitioners of civic and community engagement from diverse fields; including, government officials from cities worldwide, community organizers, activists, and academics. 
         icon: "i"
   day2: 
     day: 2
-    event: Participatory Officer (PO)
+    event: Participation Officers (PO) Program
     photo: ""
     about: > 
-      The Participatory Officers program equips civil servants to engage with stakeholders to generate meaningful challenge statements and co-create possible solutions, reinforcing the quality of multi-stakeholder collaboration and better informing their agency’s policies.
+      The PO program equips civil servants to engage with stakeholders, to generate meaningful challenge statements and, co-create possible solutions, reinforcing the quality of multi-stakeholder collaboration and better informing their agency’s policies. The program aims to build a multi-stakeholder governing system that creates trust between citizens and the government. 
 
     overview: 
       - 
-        title: Open and Participatory Policy Making
-        blurb: Learn Taiwan's approach for participatory policy-making known as Issue-Based Mapping.
+        title: Define Problems and Generate Insights
+        blurb: Through group exercises you will learn how Issue Based Mapping, ORID and KJ methods, along with tools such as Slido and RealtimeBoard can be used to define problems and generate insights. 
         icon: "i"
       - 
-        title: Co-Create Solutions
-        blurb: Hands on experience co-synthesizing and co-creating solutions to complex problems. 
+        title: Co-Create Solutions and Share Ideas
+        blurb: You will get to co-synthesize and co-create solutions to complex problems using Idea Development Sheet, RealtimeBoard
         icon: "i"
       -
-        title: 99% Effective
+        title: Praise for the PO Program 
         blurb: The original, Mandarin language training for POs has been rated “99% effective” by Taiwanese public servants. 
         icon: "i"
