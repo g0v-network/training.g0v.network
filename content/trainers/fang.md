@@ -1,6 +1,6 @@
 ---
 key: fang
-name: "Fang"
+name: "Fang-Jui Chang"
 twitter: "FangJuiChang"
 website: "fangjuichang.com"
 location: "Taiwan"
