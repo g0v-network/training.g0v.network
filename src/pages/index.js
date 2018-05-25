@@ -11,18 +11,15 @@ import TicketsContainer from '../components/Tickets'
 
 const IndexPage = ({ data }) => (
   <div>
-    <section id="#about" className="w-60-l f4 f3-l lh-copy ml5-l ph3 pv4-m measure-wide-m pl4-m pl5-l mt6 mt5-m mb5-l">
-      <p>In the spirit of international exchange and with the support of the Taiwanese government, we are pleased to announce the first English language opportunity to learn the methods that power the award-winning vTaiwan open consultation process and Participatory Officers program. </p> 
-  
-      <p>This two day training in NYC will be highly interactive and led by a delegation from Taiwan, including: Digital Minister Audrey Tang and members of the Public Digital Innovation and Service team. We invite you to be an integral part of this inaugural opportunity!
-</p>
-    </section>
+    <header id="#about" className="w-60-l f4 f3-l lh-copy ml5-l ph3 pv4-m measure-wide-m pl4-m pl5-l mt6 mt5-m mb5-l">
+       <div dangerouslySetInnerHTML={{ __html: data.introContent.edges[0].node.html }} />
+    </header>
 
     <DayOverview data={data.eventContent.edges[0].node.event.day1} flip={false} className="mb4" />
     <DayOverview data={data.eventContent.edges[0].node.event.day2} flip={true} />
-
     <Speakers data={data.trainersContent.edges} />
     <TicketsContainer data={data} />
+    <Organizers data={data.organizersContent.edges} />    
     <Sponsors data={data.sponsorsContent.edges[0].node} />    
   </div>
 )
@@ -85,6 +82,14 @@ export const query = graphql `
       }
     }
 
+    introContent:   allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/content/about/intro/"}}) {
+      edges {
+        node {
+          html
+        }
+      }
+    }
+
     applyContent:   allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/content/about/apply/"}}) {
       edges {
         node {
@@ -95,6 +100,28 @@ export const query = graphql `
         }
       }
     }
+
+    organizersContent: allMarkdownRemark(filter: {
+      fileAbsolutePath: {
+        regex: "/content\/organizers/"
+      }
+    }) {
+      edges {
+        node {
+          html
+          frontmatter {
+            social
+            name
+            role
+            twitter
+            website
+            type
+            photo
+          }
+        }
+      }
+    }
+
 
     trainersContent: allMarkdownRemark(filter : { fileAbsolutePath: { regex: "/content\/trainers/" }}) {
       edges {      

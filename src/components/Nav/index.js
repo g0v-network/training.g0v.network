@@ -20,12 +20,7 @@ const Nav = () => {
         className="flex flex-wrap justify-between w-100">
           <AnchorLink  className="white link" href="/#about">About</AnchorLink>
           <AnchorLink  className="white link" href="/#trainers">Trainers</AnchorLink>
-          <Link
-            to="/team"
-            className="white link"
-          >
-          Team
-          </Link>
+          <AnchorLink  className="white link" href="/#team">Team</AnchorLink>
           <AnchorLink  className="white link" href="/#sponsor">Sponsor</AnchorLink>
           <AnchorLink className="white link" href="/#tickets">Get Tickets</AnchorLink>          
       </div>
