@@ -2,7 +2,6 @@
 name: "Claudina Sarahe (CS)"
 social: 
 - twitter.com/itsmisscs
-- compositescollective.com
 - linkedin.com/claudinasarahe
 location: "NYC"
 role: "organizer"
