@@ -11,12 +11,11 @@ import TicketsContainer from '../components/Tickets'
 
 const IndexPage = ({ data }) => (
   <div>
-    <header id="#about" className="w-60-l f4 f3-l lh-copy ml5-l ph3 pv4-m measure-wide-m pl4-m pl5-l mt6 mt5-m mb5-l">
+    <header id="about" className="w-60-l f4 f3-l lh-copy ml5-l ph3 pv4-m measure-wide-m pl4-m pl5-l mt6 mt5-m mb5-l">
        <div dangerouslySetInnerHTML={{ __html: data.introContent.edges[0].node.html }} />
     </header>
-
     <DayOverview data={data.eventContent.edges[0].node.event.day1} flip={false} className="mb4" />
-    <DayOverview data={data.eventContent.edges[0].node.event.day2} flip={true} />
+    <DayOverview data={data.eventContent.edges[0].node.event.day2} flip={false} />
     <Speakers data={data.trainersContent.edges} />
     <TicketsContainer data={data} />
     <Organizers data={data.organizersContent.edges} />    

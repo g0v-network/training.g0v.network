@@ -22,7 +22,7 @@ const Layout = ({ children, data }) => (
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css"/>
     </Helmet>
     <Header data={data} siteTitle={data.site.siteMetadata.title} />
-    <main className="relative z-2 mt4-l">
+    <main className="relative z-2 mt4-l black-60">
       {children()}
     </main>
     <Footer data={data} />

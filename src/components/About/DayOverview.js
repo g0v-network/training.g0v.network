@@ -13,7 +13,7 @@ const DayOverview = ({
   const aboutClass = flip === false ?   "pr6-l" : "pl4-l"
 
 
-  let eventClass= `event event-day${data.day} mb5`
+  let eventClass= `event event-day1 mb5`
 
   return ( 
     <section className={eventClass}>

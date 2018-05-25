@@ -5,14 +5,12 @@ import Link from 'gatsby-link'
 import MediaObject from '../Core/MediaObject'
 
 const TicketContainer = ({data}) => {
-  console.log(data)
-
   const applyContent = data.applyContent.edges[0].node
   const ticketContent = data.ticketsContent.edges[0].node.tickets
 
   return (
     <section
-    id="#tickets"
+    id="tickets"
     className="ph4 pl5-l pv4 flex-l skewed-section bg-near-white">
       <section className="w-50-l reset-skewed-section">
         <div
