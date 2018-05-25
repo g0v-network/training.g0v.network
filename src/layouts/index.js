@@ -9,7 +9,6 @@ import './index.css'
 
 const Layout = ({ children, data }) => (
   <div className="avenir overflow-hidden">
-  {console.log(data)}
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
