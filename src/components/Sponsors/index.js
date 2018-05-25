@@ -8,7 +8,7 @@ const Sponsors = ({data}) => {
 
   return (
     <section
-    id="#sponsor"
+    id="sponsor"
     className="pv3 ph4 pv5-l bg-light-green">
         <div
           className="lh-copy f4 pr6-l measure-l"

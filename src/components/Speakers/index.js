@@ -8,7 +8,7 @@ import Person from '../Core/Person'
 const Speakers = ({data}) => {
   return (
     <section
-      id="#trainers"
+      id="trainers"
       className="bg-light-yellow mt6 trainer-section">
       {/* <h1 className="fw3 center tc">Trainers</h1> */}
         {data.map((speaker, i) => (

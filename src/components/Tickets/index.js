@@ -5,18 +5,16 @@ import Link from 'gatsby-link'
 import MediaObject from '../Core/MediaObject'
 
 const TicketContainer = ({data}) => {
-  console.log(data)
-
   const applyContent = data.applyContent.edges[0].node
   const ticketContent = data.ticketsContent.edges[0].node.tickets
 
   return (
     <section
-    id="#tickets"
-    className="pv3 ph4 pv4 flex-l">
-      <section className="w-50-l">
+    id="tickets"
+    className="ph4 pl5-l pv4 flex-l skewed-section bg-near-white">
+      <section className="w-50-l reset-skewed-section">
         <div
-          className="measure-l lh-copy f4 pr5-l"
+          className="measure-l lh-copy f4 pr5-l mt6"
           dangerouslySetInnerHTML={{ __html: applyContent.html }}
         />        
         
@@ -29,15 +27,15 @@ const TicketContainer = ({data}) => {
           </a>
         </p>
       </section>
-      <aside className="mt5 mt0-l w-50-l">
+      <aside className="mt5 mt0-l w-50-l reset-skewed-section pt4-l pb5-l">
         <h2 className="tc-l fw3">Your ticket includes</h2>
-        <div className="flex flex-wrap mw8 center">
+        <div className="flex flex-column items-center">
         {ticketContent.map((perk, i) => (
           <MediaObject 
             title={perk.title} 
             blurb={perk.blurb} 
             icon={perk.icon}
-            className="w-50-l ph4-l"
+            className="measure-wide-m measure-narrow-l"
           />
         ))}  
         </div>    

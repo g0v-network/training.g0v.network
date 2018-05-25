@@ -18,7 +18,8 @@
     "react-anchor-link-smooth-scroll": "^1.0.9",
     "react-helmet": "^5.2.0",
     "slug": "^0.9.1",
-    "smooth-anchorate": "^1.2.1"
+    "smooth-anchorate": "^1.2.1",
+    "tachyons-react-social-icons": "^2.8.4"
   },
   "keywords": [
     "gatsby"
@@ -32,6 +33,7 @@
   },
   "devDependencies": {
     "prettier": "^1.12.0",
+    "react-social-icons": "^3.0.0",
     "tachyons": "^4.9.1"
   }
 }

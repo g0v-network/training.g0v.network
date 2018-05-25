@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Nav = () => {
 
@@ -18,16 +17,11 @@ const Nav = () => {
 
       <div
         className="flex flex-wrap justify-between w-100">
-          <AnchorLink  className="white link" href="/#about">About</AnchorLink>
-          <AnchorLink  className="white link" href="/#trainers">Trainers</AnchorLink>
-          <Link
-            to="/team"
-            className="white link"
-          >
-          Team
-          </Link>
-          <AnchorLink  className="white link" href="/#sponsor">Sponsor</AnchorLink>
-          <AnchorLink className="white link" href="/#tickets">Get Tickets</AnchorLink>          
+          <a className="white link" href="/#about">About</a>
+          <a className="white link" href="/#trainers">Trainers</a>
+          <a className="white link" href="/#team">Team</a>
+          <a className="white link" href="/#sponsor">Sponsor</a>
+          <a className="white link" href="/#tickets">Get Tickets</a>          
       </div>
     </nav>
   )
