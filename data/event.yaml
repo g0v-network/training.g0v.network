@@ -25,11 +25,16 @@ embarks on a “virtual venture” of open consultation with citizens. “vTaiwa
         icon: "i"
   day2: 
     day: 2
-    event: Participation Officers (PO) Training Program
+    event: Participation Officers (PO) Collaboration Workshop
     photo: "/images/po-network-training-pdis.jpg"
-    about: "The PO program equips civil servants to engage with stakeholders to generate meaningful challenge statements and co-create possible solutions, reinforcing the quality of multi-stakeholder collaboration and better informing their agency’s policies. The program aims to build a multi-stakeholder governing system that creates trust between citizens and the government." 
+    about: >
+      PO network is a network of 75 public servants in the central Taiwanese government. The PO collaboration workshop supports a multi-stakeholder governing system that provides an innovative alternative for cross-ministerial collaboration and online/offline civic participation that helps address diverse problems. The system is responding to open government values and aims to reinforce the trust between citizens and the government. 
+ 
 
     overview: 
+      - 
+        title: Hear Firsthand Experiences from PO Members
+        blurb: "A PO member will be onsite at the training to share their firsthand experiences."
       - 
         title: Define Problems and Generate Insights
         blurb: "Through group exercises you will learn how Issue Based Mapping, ORID and KJ methods, along with tools such as Slido and RealtimeBoard can be used to define problems and generate insights. "
