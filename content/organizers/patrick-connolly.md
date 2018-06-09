@@ -3,7 +3,7 @@ name: "Patrick Connolly"
 social:
 - twitter.com/patconnolly
 location: "Toronto"
-role: "organizer"
+role: null
 type: "person"
 ---
 
