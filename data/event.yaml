@@ -3,8 +3,10 @@ event:
     day: 1
     photo: "/images/vtaiwan-nci-stakeholder-meeting.jpg"
     event: vTaiwan Open Consultation Process
-    about: "vTaiwan is an open consultation process that brings Taiwan citizens and government together to craft country-wide digital legislation. The ‘v’ in vTaiwan stands for “vision”, “voice”, “vote” and “virtual”, as vTaiwan
-embarks on a “virtual venture” of open consultation with citizens. “vTaiwan culture” is drawn from open source culture, strongly adhering to principles of transparency and collaboration, self-organization and distributed responsibility." 
+    about: >
+      <a href="https://info.vtaiwan.tw/">vTaiwan</a> is a public-fund, private-operated community. vTaiwan is an open consultation process that brings Taiwan citizens and government together in online and offline spaces. There are various collaborative open source engagement tools used in vTaiwan that shapes an interactive environment based on evolving rough consensus. “vTaiwan culture” is drawn from open source culture, strongly adhering to principles of transparency and collaboration, self-organization and distributed responsibility. vTaiwan is also an open space, a combination of time and space run by participants to work on cases brought in.
+
+
     overview:   
       - 
         title: History of vTaiwan
@@ -28,7 +30,7 @@ embarks on a “virtual venture” of open consultation with citizens. “vTaiwa
     event: Participation Officers (PO) Collaboration Workshop
     photo: "/images/po-network-training-pdis.jpg"
     about: >
-      PO network is a network of 75 public servants in the central Taiwanese government. The PO collaboration workshop supports a multi-stakeholder governing system that provides an innovative alternative for cross-ministerial collaboration and online/offline civic participation that helps address diverse problems. The system is responding to open government values and aims to reinforce the trust between citizens and the government. 
+      <a href="http://po.pdis.tw/">PO network</a> is a network of 75 public servants in the central Taiwanese government. The PO collaboration workshop supports a multi-stakeholder governing system that provides an innovative alternative for cross-ministerial collaboration and online/offline civic participation that helps address diverse problems. The system is responding to open government values and aims to reinforce the trust between citizens and the government. 
  
 
     overview: 
